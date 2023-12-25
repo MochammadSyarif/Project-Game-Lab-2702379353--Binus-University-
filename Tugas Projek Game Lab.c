@@ -11,10 +11,10 @@
 #define QUESTION_TIME_LIMIT 30
 #define LEADERBOARD_FILE "leaderboard.txt"
 
-//Nama: Mochammad Syarif Triardiasya
-//Kelas : LD75
+//Nama: Mochammad Syarif Triardiasya (LD75)
+//nim: 2702379353
 //Kelas LAB: BH75
-//Project Game Binus Bandung
+
 
 typedef struct {
     char name[MAX_NAME_LENGTH];
@@ -30,7 +30,6 @@ typedef struct {
 Player players[MAX_PLAYERS];
 int currentPlayerIndex = 0;
 
-// Function declarations
 void displayMenu();
 void startQuizRecursive();
 void displayLeaderboard();
